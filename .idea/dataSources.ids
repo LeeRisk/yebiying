@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails yebiying: development" uuid="8a106bb2-a41c-4699-afcb-bf5a24ae01f3">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails yebiying: test" uuid="e54e4991-1e8a-4fa4-ae0e-97977eab62bf">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails yebiying: production" uuid="2de5795d-6d14-4b2d-9df2-45df0075683b">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails yebiying: default" uuid="c5f11e76-9efc-4629-8b03-05eda571a57d">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>

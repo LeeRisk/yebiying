@@ -32,11 +32,15 @@ gem 'kaminari'
 #=====
 # Test
 #=====
-gem 'rspec-rails'
-gem 'capybara'
-gem 'factory_girl_rails'
-gem 'cucumber-rails'
-gem 'database_cleaner'
+gem 'rspec-rails', group: [:development, :test]
+
+group :test do
+
+  gem 'capybara'
+  gem 'factory_girl_rails'
+  gem 'cucumber-rails'
+  gem 'database_cleaner'
+end
 
 
 
@@ -48,7 +52,6 @@ group :development do
   gem "binding_of_caller"
 end
 # gem 'debugger', group: [:development, :test]
-
 
 
 #=========

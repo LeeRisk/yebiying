@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="7500474">
+    <data-source source="LOCAL" name="Rails yebiying: development" uuid="8a106bb2-a41c-4699-afcb-bf5a24ae01f3">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/yebiying_development</jdbc-url>
+      <user-name>yby</user-name>
+      <user-password>df93df84df9adf9bdf9adf9bdf9bdf99df9bdfefdf9d</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails yebiying: test" uuid="e54e4991-1e8a-4fa4-ae0e-97977eab62bf">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/yebiying_test</jdbc-url>
+      <user-name>yby</user-name>
+      <user-password>df93df84df9adf9bdf9adf9bdf9bdf99df9bdfefdf9d</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails yebiying: production" uuid="2de5795d-6d14-4b2d-9df2-45df0075683b">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/yebiying_production</jdbc-url>
+      <user-name>yby</user-name>
+      <user-password>df93df84df9adf9bdf9adf9bdf9bdf99df9bdfefdf9d</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails yebiying: default" uuid="c5f11e76-9efc-4629-8b03-05eda571a57d">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/yebiying_development</jdbc-url>
+      <user-name>yby</user-name>
+      <user-password>df93df84df9adf9bdf9adf9bdf9bdf99df9bdfefdf9d</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
