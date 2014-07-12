@@ -1,4 +1,18 @@
 Rails.application.routes.draw do
+  resources :messages
+
+  resources :fms
+
+  resources :albums
+
+  resources :images
+
+  resources :thanksgivings
+
+  resources :epiphanies
+
+  resources :topics
+
   devise_for :users
   resources :articles do
     resources :comments

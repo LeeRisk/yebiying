@@ -1,0 +1,27 @@
+<h1>Listing thanksgivings</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Body</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @thanksgivings.each do |thanksgiving| %>
+      <tr>
+        <td><%= thanksgiving.name %></td>
+        <td><%= thanksgiving.body %></td>
+        <td><%= link_to 'Show', thanksgiving %></td>
+        <td><%= link_to 'Edit', edit_thanksgiving_path(thanksgiving) %></td>
+        <td><%= link_to 'Destroy', thanksgiving, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Thanksgiving', new_thanksgiving_path %>

@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @fm.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @fm.description %>
+</p>
+
+<p>
+  <strong>Format:</strong>
+  <%= @fm.format %>
+</p>
+
+<p>
+  <strong>Storage:</strong>
+  <%= @fm.storage %>
+</p>
+
+<%= link_to 'Edit', edit_fm_path(@fm) %> |
+<%= link_to 'Back', fms_path %>
