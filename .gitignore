@@ -16,4 +16,5 @@
 /tmp
 
 # Ignore the database config with password
-/congit/database.yml
+/config/database.yml
+/config/secrets.yml
