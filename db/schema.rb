@@ -23,16 +23,21 @@ ActiveRecord::Schema.define(version: 20140712143909) do
   end
 
   create_table "articles", force: true do |t|
+    t.integer  "topic_id"
     t.string   "title"
-    t.text     "content"
+    t.date     "initial_published"
+    t.text     "body"
+    t.text     "abstract"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "comments", force: true do |t|
     t.integer  "article_id"
-    t.text     "content"
+    t.text     "body"
     t.integer  "user_id"
+    t.string   "guest_nickname"
+    t.string   "guest_email"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
