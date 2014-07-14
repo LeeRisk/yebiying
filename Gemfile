@@ -27,16 +27,19 @@ gem 'kaminari'
 #=====
 # Test
 #=====
-gem 'rspec-rails', group: [:development, :test]
-
-group :test do
-
-  gem 'capybara'
-  gem 'factory_girl_rails'
-  gem 'cucumber-rails'
-  gem 'database_cleaner'
+group :development, :test do
+  gem "rspec-rails"
+  gem "factory_girl_rails"
 end
 
+group :test do
+  gem 'faker'
+  gem 'capybara'
+  gem 'cucumber-rails'
+  gem 'database_cleaner'
+  gem 'launchy'
+  gem 'selenium-webdriver'
+end
 
 
 #======
