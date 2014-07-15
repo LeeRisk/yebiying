@@ -37,7 +37,6 @@ ActiveRecord::Schema.define(version: 20140712143909) do
     t.text     "body"
     t.integer  "user_id"
     t.string   "guest_nickname"
-    t.string   "guest_email"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
